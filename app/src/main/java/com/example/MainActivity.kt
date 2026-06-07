@@ -217,7 +217,7 @@ fun StreamVaultApp() {
     // Manual update check handler
     val performManualUpdateCheck: () -> Unit = {
         updateState = UpdateState.Checking
-        fetchLatestRelease("utsog", "streamvault") { release ->
+        fetchLatestRelease("utsogharami5-source", "StreamVault-Apk") { release ->
             (context as? Activity)?.runOnUiThread {
                 if (release != null) {
                     val currentVersion = try {
@@ -246,7 +246,7 @@ fun StreamVaultApp() {
             permissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
         }
         
-        fetchLatestRelease("utsog", "streamvault") { release ->
+        fetchLatestRelease("utsogharami5-source", "StreamVault-Apk") { release ->
             (context as? Activity)?.runOnUiThread {
                 if (release != null) {
                     val currentVersion = try {
