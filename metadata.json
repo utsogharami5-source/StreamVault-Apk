@@ -1,0 +1,6 @@
+{
+  "name": "StreamVault",
+  "description": "Watch 6500+ Live TV Channels Free. Premium IPTV player with HLS streaming, custom playlists, and modern web integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
